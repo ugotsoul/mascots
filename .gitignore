@@ -1,0 +1,15 @@
+# Don't include images scraped or info about crawls
+**/images
+**/crawls
+*.zip
+
+# VS Code
+*.code-workspace
+
+# Scrapy html file from the first crawl to identify anchors
+mascots/spiders/scrapy-stats-r1
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
